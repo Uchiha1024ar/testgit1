@@ -29,5 +29,10 @@ namespace testgit1.Controllers
             })
             .ToArray();
         }
+
+        [HttpPost]
+        public string getmyname(WeatherForecast forecast) {
+            return "sridhar";
+        }
     }
 }
